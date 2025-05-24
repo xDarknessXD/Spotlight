@@ -5,7 +5,7 @@ import { Text, View } from 'react-native'
 export default function bookmarks() {
   return (
     <View style={styles.container}>
-      <Text>bookmarks</Text>
+      <Text style={styles.appName}>Bookmarks</Text>
     </View>
   )
 }
