@@ -28,7 +28,7 @@ export default function Login() {
       {/* BRAND SECTION */}
       <View style={styles.brandSection}>
         <View style={styles.logoContainer}>
-          <Ionicons name="leaf" size={32} color={COLORS.primary} />
+          <Ionicons name="cloudy-night" size={32} color={COLORS.primary} />
         </View>
         <Text style={styles.appName}>Spotlight</Text>
         <Text style={styles.tagline}>Share your favorite moments</Text>
@@ -37,7 +37,7 @@ export default function Login() {
         <Image
           source={require('../../assets/images/auth-bg-2.png')}
           style={styles.illustration}
-          resizeMode="cover"
+          resizeMode="contain"
         />
       </View>
 
@@ -52,8 +52,7 @@ export default function Login() {
           </View>
         </TouchableOpacity>
 
-        <Text style={styles.termsText}>
-          By continuing, you agree to our Terms and Privacy Policy
+        <Text style={styles.termsText}>         By continuing, you agree to our Terms and Privacy Policy
         </Text>
 
       </View>
